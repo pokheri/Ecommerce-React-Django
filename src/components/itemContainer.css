@@ -1,0 +1,28 @@
+.item-row-container{
+  display: flex;
+
+}
+
+.items-window{
+  display: flex;
+  overflow: hidden;
+}
+
+.button-action{
+  display: flex;
+  justify-content: center;
+  margin-top: 23px;
+}
+.circle-btn{
+height: 10px;
+  width: 9.6px;
+  border-radius: 29px;
+  background: gainsboro;
+  margin-right: 8px;
+}
+.circle-btn:hover{
+  background-color: greenyellow;
+}
+.imagetrack{
+  display: flex;
+}

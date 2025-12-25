@@ -1,0 +1,46 @@
+
+
+.footer{
+  display: flex;
+  font-size: 14px;
+  justify-content: center;
+  column-gap: 66px;
+  background-color: #fafbfc;
+  margin-top: 34px;
+  padding-top: 52px;
+}
+
+
+.ul{
+  list-style: none;
+  padding: 0px;
+  margin-top: 33px;
+}
+
+li{
+  margin-bottom: 5px;
+  color: rgb(127, 124, 124);
+}
+
+.foot-header{
+  font-weight: bold;
+  font-size: 11.1px;
+  letter-spacing: 1px;
+}
+
+.ul-item:hover{
+  cursor: pointer;
+}
+
+.first, .second{
+  display: flex;
+  gap: 4px;
+  width: 310px;
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+
+.rg-icon{
+  width: 43px;
+}

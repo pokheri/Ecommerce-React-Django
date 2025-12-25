@@ -1,0 +1,17 @@
+/* Control carousel width */
+#carouselExampleIndicators {
+  width: 900px;      /* change this to any width you want */
+  max-width: 100%;
+  margin: auto;
+}
+
+/* Image follows carousel width exactly */
+.carousel-img {
+  width: 100%;
+  height: 400px;     /* optional */
+  object-fit: cover;
+  display: block;
+}
+
+
+

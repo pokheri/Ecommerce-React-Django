@@ -1,0 +1,25 @@
+
+
+
+.keep-in-touch{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 34px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 12px;
+  
+}
+
+.icon-one{
+  height: 33px;
+  width: 22px;
+}
+
+.icons{
+  display: flex;
+  gap: 12px;
+  color: #6c6767;
+
+}

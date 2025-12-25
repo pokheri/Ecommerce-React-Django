@@ -1,0 +1,20 @@
+
+
+
+.myntraHeader{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly; 
+  background-color: white;
+  padding: 18px 10px 18px 50px;
+  border-bottom: 7px solid #f4f4f4;
+  margin-left: -27px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  margin-left: -18px;
+}
+
