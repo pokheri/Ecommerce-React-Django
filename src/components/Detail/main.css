@@ -1,0 +1,113 @@
+.main-content-upper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 37px 34px 0px 37px;
+}
+
+
+.div-main-content{
+  display: flex;
+}
+.main-content-upper >p{
+  margin: 0px;
+  font-weight: bold;
+}
+
+.div-nav{
+  display: flex;
+  gap: 24px;
+  font-size: 14px;
+}
+
+.filter-div{
+  border: 1px solid gainsboro;
+  padding: 8px;
+   display: flex;
+   justify-content: space-between;
+  width: 281px;
+  padding-left: 16px;
+}
+
+#down-icon{
+  height: 24px;
+  width: 22px;
+}
+
+
+#radio-span{
+  display: flex;
+  gap: 14px;
+  row-gap: 7px;
+  font-size: 13px;
+}
+
+.radio-text{
+  font-weight: bold;
+  font-size: 14px;
+}
+.filter-area{
+  width: 269px;
+  padding-left: 35px;
+  border-right: 1px solid gainsboro;
+  border-bottom: 1px solid gainsboro;
+}
+
+.check-point{
+  padding: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  border-bottom: 1px solid gainsboro;
+
+}
+
+.check-box{
+  display: flex;
+  gap: 14px;
+}
+
+.brand-head{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 23px;
+}
+
+#search-icon{
+  height: 31px;
+  width: 20px;
+}
+
+
+.span-circle{
+  height: 17px;
+  width: 17px;
+  border: 1px solid;
+  border: 2px solid red;
+  border-radius: 19px; 
+  background-color: #ff2aac;
+}
+
+.price-selector{
+  display: flex;
+  margin-top: 11px;
+}
+.price-selector > p{
+ width: 173px;
+  height: 3px;
+  background: #ff2aac;
+  margin-top: 7px; 
+ 
+}
+.price-container{
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+.product-area{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 7px;
+
+  padding: 0px 11px;
+}

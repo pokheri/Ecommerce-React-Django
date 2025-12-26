@@ -1,10 +1,8 @@
 import { useState } from "react";
 import "./App.css";
-import CatContainer from "./components/Category/CatContainer";
-
+import Main from "./components/Detail/Main";
 import Footer from "./components/Footer";
 import Header from "./components/Header/Header";
-import ItemContainer from "./components/ItemContainer";
 function App() {
   const [count, setCount] = useState(0);
   console.log("hey this is hte magic");
@@ -12,13 +10,14 @@ function App() {
   return (
     <>
       <Header />
-      <div
+      {/* <div
         className="body-container"
         style={{ marginLeft: "76px", marginRight: "70px" }}
       >
         <ItemContainer />
         <CatContainer />
-      </div>
+      </div> */}
+      <Main />
       <Footer />
     </>
   );

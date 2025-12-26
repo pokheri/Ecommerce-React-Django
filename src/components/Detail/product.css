@@ -1,0 +1,54 @@
+
+
+
+.dt-product{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.dt-p-img-container{
+  flex-shrink: 0;
+  height: 280px;
+  width: 206px;
+  margin-top: 64px;
+  border: 1px solid;
+  position: relative;
+}
+.product-info > p{
+  margin: 0px;
+
+}
+.p-name{
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.price > span{
+  margin-right: 2px;
+}
+
+.off-per{
+  color: orange;
+}
+
+.rating{
+  border: 2px solid aliceblue;
+  position: absolute;
+  top: 3px;
+  left: 5px;
+  padding: 3px;
+  background-color: gainsboro;
+  color: black;
+  border-radius: 4px;
+}
+
+.product-info{
+  align-items: start;
+}
+
+
+.pr-img{
+  height: 100%;
+  width: 100%;
+}
